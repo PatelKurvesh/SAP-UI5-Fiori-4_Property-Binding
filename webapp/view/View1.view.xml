@@ -1,9 +1,22 @@
 <mvc:View controllerName="GithubSAP-UI5-Fiori-4_Property-Binding.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:form="sap.ui.layout.form">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+					<form:SimpleForm>
+						<form:content>
+							<!--This is called property binding every property need separate binding-->
+							<Label text="Student Name"></Label>
+							<Input value="{/student/name}"></Input>
+							<Label text="Enrollment No."></Label>
+							<Input value="{/student/no}"></Input>
+							<Label text="Semester"></Label>
+							<Input value="{/student/sem}"></Input>
+							
+						</form:content>
+					</form:SimpleForm>
+				</content>
 			</Page>
 		</pages>
 	</App>
