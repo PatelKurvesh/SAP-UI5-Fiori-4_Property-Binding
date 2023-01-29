@@ -1,0 +1,1 @@
+# SAP-UI5-Fiori-4_Property-Binding
