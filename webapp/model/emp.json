@@ -1,0 +1,8 @@
+{
+	"employees": {
+		"name": "John Doe",
+		"age": 30,
+		"department": "Sales",
+		"salary": 50000
+	}
+}

@@ -64,6 +64,10 @@
 				"settings": {
 					"bundleName": "GithubSAP-UI5-Fiori-4_Property-Binding.i18n.i18n"
 				}
+			},
+			"": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/emp.json"
 			}
 		},
 		"resources": {

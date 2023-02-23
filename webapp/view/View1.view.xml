@@ -4,20 +4,20 @@
 		<pages>
 			<Page title="{i18n>title}">
 				<content>
-					<form:SimpleForm>
-						<form:content>
+					
 							<!--This is called property binding every property need separate binding-->
-							<Label text="Student Name"></Label>
-							<Input value="{/student/name}"></Input>
-							<Label text="Enrollment No."></Label>
-							<Input value="{/student/no}"></Input>
-							<Label text="Semester"></Label>
-							<Input value="{/student/sem}"></Input>
-							
-						</form:content>
-					</form:SimpleForm>
-				</content>
-			</Page>
-		</pages>
-	</App>
+							<Label text="Name"/>
+							<Input value="{/employees/name}"/>
+							<Label text="Age"/>
+							<Input value="{/employees/age}"/>
+							<Label text="Department"/>
+							<Input value="{/employees/department}"/>
+							<Label text="Salary"/>
+							<Input value="{/employees/salary}"/>
+					
+					
+			</content>
+		</Page>
+	</pages>
+</App>
 </mvc:View>
